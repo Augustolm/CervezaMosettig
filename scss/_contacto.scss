@@ -1,0 +1,152 @@
+body {
+    background: linear-gradient(to top, rgb(193, 219, 78), rgb(255, 255, 255));
+    height: 100%;
+}
+
+@mixin caja {
+    box-sizing: border-box;
+
+    font-family: $fontprimario;
+    padding: 0 1.5em 2rem;
+
+}
+
+@mixin sombra {
+    -webkit-box-shadow: 14px 7px 21px 1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 14px 7px 21px 1px rgba(0, 0, 0, 1);
+    box-shadow: 14px 7px 21px 1px rgba(0, 0, 0, 1);
+
+}
+
+.contact {
+    @include caja;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    color: $blanco;
+
+    &-wrapper {
+        @include sombra;
+        background: #181818;
+
+    }
+
+    &-form {
+        background: #222222;
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        p {
+            margin: 0;
+            padding: 1rem;
+
+            &.block {
+                grid-column: 1 / 3;
+            }
+        }
+
+        button:hover,
+        button:focus {
+            background: #d63031;
+            color: $blanco;
+            transition: background-color 1s ease-out;
+            outline: 0;
+        }
+    }
+
+    &-info {
+        background: $negro;
+
+        h4,
+        ul {
+            list-style: none;
+            padding: 1rem;
+            text-align: center;
+
+            li {
+                padding: 0.3rem;
+            }
+        }
+
+        p {
+            text-align: center;
+            margin: 0 0 1rem 0;
+
+
+        }
+    }
+
+}
+
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #d63031;
+    color: $blanco;
+}
+
+
+.contact-form form button {
+    background: #b70e21;
+    color: $negro;
+    border: 0;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.logo {
+    text-align: ledt;
+    font-size: 3rem;
+    color: $colorprimario;
+    font-family: $fontsecundario;
+
+}
+
+.contact-wrapper>* {
+    padding: 1rem;
+
+}
+
+
+@media (min-width: 700px) {
+
+    .contact {
+
+        &-wrapper {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+    }
+
+    .contact-wrapper>* {
+        padding: 1rem 0 2rem 0;
+
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+
+        padding: 0.5em;
+        text-align: left;
+    }
+
+
+
+
+
+}

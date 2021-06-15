@@ -1,0 +1,351 @@
+.mapainfo {
+  text-align: left;
+  font-size: 3rem;
+  font-family: "Roboto Mono";
+  text-align: center;
+}
+
+.estructura-info {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans";
+  margin: 2rem;
+  font-family: "Roboto Mono";
+}
+
+#mapa {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 700px) {
+  .estructura-mapa {
+    height: 40rem;
+  }
+}
+
+body {
+  background: linear-gradient(to top, #c1db4e, white);
+  height: 100%;
+}
+
+.contact {
+  box-sizing: border-box;
+  font-family: "Noto Sans";
+  padding: 0 1.5em 2rem;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  color: white;
+}
+
+.contact-wrapper {
+  box-shadow: 14px 7px 21px 1px black;
+  background: #181818;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.contact-form p.block {
+  grid-column: 1 / 3;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background: #d63031;
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: black;
+}
+
+.contact-info h4,
+.contact-info ul {
+  list-style: none;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-info h4 li,
+.contact-info ul li {
+  padding: 0.3rem;
+}
+
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  background: none;
+  outline: 0;
+  border-bottom: 1px solid #d63031;
+  color: white;
+}
+
+.contact-form form button {
+  background: #b70e21;
+  color: black;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: ledt;
+  font-size: 3rem;
+  color: #a0100b;
+  font-family: "Roboto Mono";
+}
+
+.contact-wrapper > * {
+  padding: 1rem;
+}
+
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 1rem 0 2rem 0;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    padding: 0.5em;
+    text-align: left;
+  }
+}
+
+.redes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.redes-container ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: white;
+  line-height: 50pxs;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: .2s;
+}
+
+.redes-container ul:hover a {
+  filter: blur(2px);
+}
+
+.redes-container ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none;
+}
+
+.redes-container ul li .instagram:hover {
+  background: #e4405f;
+}
+
+.redes-container ul li .twitter:hover {
+  background: #55acee;
+}
+
+.redes-container ul li .facebook:hover {
+  background: #3b5999;
+}
+
+.redes-container ul li .pinteres:hover {
+  background: #bd081c;
+}
+
+.redes-container ul li .linkedin:hover {
+  background: #0077b5;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*1 rem = 10px */
+  margin: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Noto Sans";
+  font-size: 1.6rem;
+  margin: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /*font-family: 'Roboto Mono', monospace;*/
+  line-height: 1.2;
+}
+
+/*principal*/
+.principal {
+  font-size: 3rem;
+  margin-left: 12%;
+  font-family: "Roboto Mono";
+}
+
+.container__title {
+  font-size: 3rem;
+  font-family: "Roboto Mono";
+  margin-top: 0;
+}
+
+.jumbo {
+  border-radius: 5rem;
+  padding: 3rem;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jumbo__title {
+  font-family: "Noto Sans";
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.jumbo__title-texto {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+}
+
+.carrusel {
+  padding: 2rem;
+  width: 60%;
+}
+
+.carrusel__img {
+  border-radius: 2rem;
+  height: 100%;
+}
+
+/*fin principal*/
+/*inicio producto*/
+.presentacion {
+  text-align: center;
+}
+
+.presentacion__title {
+  font-family: "Noto Sans";
+}
+
+.presentacion__texto {
+  font-family: "Roboto Mono";
+}
+
+.producto {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.producto__cuadrado {
+  padding: 2rem;
+}
+
+.producto__cuadrado-lata {
+  list-style: none;
+}
+
+.producto__cuadrado-lata-tam {
+  width: 250px;
+  height: 250px;
+}
+
+.producto_cuadrado-lata-nombre {
+  text-transform: uppercase;
+  font-family: "Noto Sans";
+  text-align: center;
+}
+
+/*fin producto*/
+/*inicio informacion*/
+.materiales {
+  text-align: center;
+}
+
+.informacion {
+  align-items: center;
+  background-color: white;
+  margin-bottom: 2rem;
+  opacity: 90%;
+}
+
+.informacion__cuadrado {
+  border: solid 1px black;
+}
+
+.informacion__img {
+  border-radius: 50rem;
+}
+
+/*fin informacion*/
+/*Contacto*/
+.contacto__info {
+  background-color: #a0100b;
+  border: solid 1px black;
+  text-align: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+  border-radius: 2rem;
+}
+
+.contacto__ionfo-input {
+  text-align: center;
+}
+
+/*FIn Contacto*/

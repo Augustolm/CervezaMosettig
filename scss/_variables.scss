@@ -1,0 +1,21 @@
+$colorprimario:rgb(160, 16, 11);
+$colorsecundario:rgb(141, 108, 71);
+$negro:black;
+$blanco:white;
+$gris:gray;
+
+
+$Rfacebook: #3b5999;
+$Rinstagram: #e4405f;
+$Rtwitter: #55acee;
+$Rpinteres: #bd081c;
+$Rlinkedin: #0077b5;
+
+@mixin redesformato {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$fontprimario:'Noto Sans';
+$fontsecundario:'Roboto Mono';

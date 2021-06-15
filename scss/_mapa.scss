@@ -1,0 +1,32 @@
+.mapainfo {
+    text-align: left;
+    font-size: 3rem;
+    font-family: $fontsecundario;
+    text-align: center;
+}
+
+.estructura {
+
+    &-info {
+
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $fontprimario;
+        margin: 2rem;
+        font-family: $fontsecundario;
+
+    }
+
+}
+
+#mapa {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 700px) {
+    .estructura-mapa {
+        height: 40rem;
+    }
+
+}
