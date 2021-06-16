@@ -205,11 +205,11 @@ html {
 
 body {
   background: linear-gradient(to top, #c1db4e, white);
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Noto Sans";
   font-size: 1.6rem;
   margin: 0;
-  height: 100%;
+  
 }
 
 
