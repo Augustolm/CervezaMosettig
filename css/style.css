@@ -24,7 +24,10 @@
   }
 }
 
-
+body {
+  background: linear-gradient(to top, #c1db4e, white);
+  height: 100%;
+}
 
 .contact {
   box-sizing: border-box;
@@ -204,15 +207,11 @@ html {
 }
 
 body {
-  background: linear-gradient(to top, #c1db4e, white);
-  background-attachment: fixed;
   font-family: "Noto Sans";
   font-size: 1.6rem;
   margin: 0;
-  
+  height: 100%;
 }
-
-
 
 a {
   text-decoration: none;
