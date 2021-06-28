@@ -20,10 +20,12 @@ html {
 
 body {
     font-family: $fontprimario;
+    background: linear-gradient(to top, #c1db4e, white);
+    background-attachment:fixed;
     font-size: 1.6rem;
-
     margin: 0;
     height: 100%;
+
 }
 
 a {
@@ -73,7 +75,7 @@ h4 {
 
 .jumbo__title-texto {
     font-family: $fontsecundario;
-    font-size: clamp(3rem, 50%, 1rem);
+    font-size: 1rem;
 
 }
 

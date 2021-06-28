@@ -208,6 +208,8 @@ html {
 
 body {
   font-family: "Noto Sans";
+  background: linear-gradient(to top, #c1db4e, white);
+  background-attachment: fixed;
   font-size: 1.6rem;
   margin: 0;
   height: 100%;
@@ -256,7 +258,7 @@ h4 {
 
 .jumbo__title-texto {
   font-family: "Roboto Mono";
-  font-size: clamp(3rem, 50%, 1rem);
+  font-size: 1rem;
 }
 
 .carrusel {
