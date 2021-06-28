@@ -24,10 +24,7 @@
   }
 }
 
-body {
-  background: linear-gradient(to top, #c1db4e, white);
-  height: 100%;
-}
+
 
 .contact {
   box-sizing: border-box;
@@ -209,7 +206,7 @@ html {
 body {
   font-family: "Noto Sans";
   background: linear-gradient(to top, #c1db4e, white);
-  background-attachment: fixed;
+  background-attachment:fixed;
   font-size: 1.6rem;
   margin: 0;
   height: 100%;
@@ -249,6 +246,8 @@ h4 {
   margin-right: auto;
 }
 
+
+
 .jumbo__title {
   font-family: "Noto Sans";
   text-transform: capitalize;
@@ -261,9 +260,15 @@ h4 {
   font-size: 1rem;
 }
 
+@media (min-width: 700px) {
+  .jumbo__title-texto {
+    
+    font-size: 2rem;
+  }
 .carrusel {
   padding: 2rem;
   width: 60%;
+}
 }
 
 .carrusel__img {
