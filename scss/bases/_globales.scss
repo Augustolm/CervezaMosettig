@@ -1,0 +1,38 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*1 rem = 10px */
+    margin: 0;
+ }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $fontprimario;
+    background: linear-gradient(to top, #c1db4e, white);
+    background-attachment:fixed;
+    font-size: 1.6rem;
+    margin: 0;
+    height: 100%;
+
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /*font-family: 'Roboto Mono', monospace;*/
+    line-height: 1.2;
+}

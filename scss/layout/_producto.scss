@@ -1,0 +1,43 @@
+/*inicio producto*/
+
+.presentacion {
+    text-align: center;
+}
+
+.presentacion__title {
+    font-family: $fontprimario;
+}
+
+.presentacion__texto {
+    font-family: $fontsecundario;
+}
+
+
+.producto {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.producto__cuadrado {
+    padding: 2rem;
+}
+
+.producto__cuadrado-lata {
+    list-style: none;
+}
+
+.producto__cuadrado-lata-tam {
+    width: 250px;
+    height: 250px;
+}
+
+.producto_cuadrado-lata-nombre {
+    text-transform: uppercase;
+    font-family: $fontprimario;
+    text-align: center;
+}
+
+/*fin producto*/

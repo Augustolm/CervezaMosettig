@@ -1,0 +1,60 @@
+
+/*principal*/
+
+.principal {
+    font-size: 3rem;
+    margin-left: 12%;
+    font-family: $fontsecundario;
+}
+
+
+.container__title {
+    font-size: 3rem;
+    font-family: $fontsecundario;
+    margin-top: 0;
+}
+
+.jumbo {
+    border-radius: 5rem;
+    padding: 3rem;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.jumbo__title {
+    font-family: $fontprimario;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-align: left;
+
+}
+
+.jumbo__title-texto {
+    font-family: $fontsecundario;
+    font-size: 1rem;
+
+}
+
+
+.carrusel {
+
+    padding: 2rem;
+    width: 60%;
+    
+
+}
+
+.carrusel__img {
+    border-radius: 2rem;
+    height: 100%;
+}
+
+
+
+
+
+
+/*fin principal*/

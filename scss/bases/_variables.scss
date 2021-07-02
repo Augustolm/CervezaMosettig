@@ -1,9 +1,14 @@
+
+// Colores
+
 $colorprimario:rgb(160, 16, 11);
 $colorsecundario:rgb(141, 108, 71);
 $negro:black;
 $blanco:white;
 $gris:gray;
+  
 
+// Colores redes
 
 $Rfacebook: #3b5999;
 $Rinstagram: #e4405f;
@@ -11,11 +16,19 @@ $Rtwitter: #55acee;
 $Rpinteres: #bd081c;
 $Rlinkedin: #0077b5;
 
-@mixin redesformato {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+//fuentes
 
 $fontprimario:'Noto Sans';
 $fontsecundario:'Roboto Mono';
+
+
+//Midia Queries
+$iphon: 375px;
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+
+//Separacion
+
+$separacion: 5rem;

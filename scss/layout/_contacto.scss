@@ -1,15 +1,31 @@
-body {
-    background: linear-gradient(to top, rgb(193, 219, 78), rgb(255, 255, 255));
-    height: 100%;
+
+/*Contacto*/
+.contacto__info {
+    background-color: $colorprimario;
+    border: solid 1px $negro;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 10rem;
+    border-radius: 2rem;
 }
+
+.contacto__ionfo-input {
+    text-align: center;
+}
+
+/*FIn Contacto*/
+
+
+
 
 @mixin caja {
     box-sizing: border-box;
-
     font-family: $fontprimario;
     padding: 0 1.5em 2rem;
 
-}
+} 
+
 
 @mixin sombra {
     -webkit-box-shadow: 14px 7px 21px 1px rgba(0, 0, 0, 1);
@@ -150,3 +166,5 @@ body {
 
 
 }
+
+
