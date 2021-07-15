@@ -692,12 +692,30 @@ h4 {
   width: 35rem;
   height: 30rem;
   border-radius: 85%;
+  display: none;
+  visibility: hidden;
+}
+
+@media (min-width: 480px) {
+  .cuadroInfo-imgaen {
+    visibility: visible;
+    display: block;
+  }
 }
 
 .cuadroInfo-text {
-  width: 55%;
-  height: 53%;
+  width: 95%;
+  height: 75%;
   overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 480px) {
+  .cuadroInfo-text {
+    width: 55%;
+    height: 53%;
+    overflow: hidden;
+  }
 }
 
 .cuadroInfo-text p {

@@ -206,12 +206,27 @@
     width: 35rem;
     height: 30rem;
     border-radius: 85%;
+    display:none;
+    visibility: hidden;
+    
+    @include telefono {
+        
+        visibility: visible;
+        display:block;
 
+    }   
     }
     &-text{
-        width: 55%;
-        height: 53%;
+        width: 95%;
+        height: 75%;
         overflow: hidden;
+        text-overflow: ellipsis;
+        @include telefono {
+            width: 55%;
+            height: 53%;
+            overflow: hidden;
+        }
+
         p{
         height: auto;
         font-size: 2rem;
