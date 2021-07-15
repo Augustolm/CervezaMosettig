@@ -120,36 +120,111 @@
 
 /* box 1 */
 .box1 .icon {
-    color: red;
+    width: 3rem;
+    height: 3rem;
   
 }
 .box1 .background-hover {
     top: -170px;
     left: -250px;
-    background: linear-gradient(to bottom, rgb(255,115,0), rgb(255,148,48) );
+    background: linear-gradient(to bottom, rgb(60, 122, 19), rgb(102, 255, 64) );
 }
 
 
 /* box 2 */
 .box2 .icon {
-    color: rgb(209, 33, 194);
+    width: 3rem;
+    height: 3rem;
 }
 .box2 .background-hover {
-    top: 100px;
-    bottom: 500px;
-    background: linear-gradient(to bottom, rgb(51, 48, 230), rgb(12, 188, 241) );
+    top: -500px;
+    left: 100px;
+    background: linear-gradient(to bottom, rgb(184, 165, 61), rgb(220, 235, 19) );
 }
 
 
 /* box 3 */
 .box3 .icon {
-    color: rgb(202, 204, 103);
+    width: 3rem;
+    height: 3rem;
 }
 .box3 .background-hover {
     top: -170px;
     left: 500px;
-    background: linear-gradient(to bottom, rgb(94, 226, 105), rgb(48, 25, 3) );
+    background: linear-gradient(to bottom, rgb(35, 208, 231), rgb(75, 46, 238) );
 }
+
+
+/* box 4 */
+.box4 .icon {
+    width: 3rem;
+    height: 3rem;
+}
+.box4 .background-hover {
+    top: 250px;
+    left: -170px;
+    background: linear-gradient(to bottom, rgb(177, 247, 209), rgb(204, 19, 19) );
+}
+
+
+/* box 5 */
+.box5 .icon {
+    width: 3rem;
+    height: 3rem;
+}
+.box5 .background-hover {
+    top: 200px;
+    left: 100px;
+    background: linear-gradient(to bottom, rgb(193, 207, 152), rgb(167, 149, 134) );
+}
+
+
+
+/* box 6*/
+.box6 .icon {
+    width: 3rem;
+    height: 3rem;
+}
+.box6 .background-hover {
+    top: 200px;
+    left: 350px;
+    background: linear-gradient(to bottom, rgb(241, 238, 36), rgb(230, 227, 73) );
+}
+
+.cuadroInfo {
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+
+
+    &-imgaen {
+    width: 35rem;
+    height: 30rem;
+    border-radius: 85%;
+
+    }
+    &-text{
+        width: 55%;
+        height: 53%;
+        overflow: hidden;
+        p{
+        height: auto;
+        font-size: 2rem;
+        text-overflow: ellipsis;
+        letter-spacing: -1px;
+        text-indent: 20px;
+        font-family: $fontprimario;
+        
+     }
+    }
+
+}
+
 
 
 /*fin informacion*/
